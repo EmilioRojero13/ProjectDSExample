@@ -7,7 +7,6 @@ class DataLoader:
     def preprocedata(self, data):
         pass
 
-    
     def load_data(self):
-        data = pd.read_csv(self.path)
+        data = pd.read_csv(self.filepath)
         return data
